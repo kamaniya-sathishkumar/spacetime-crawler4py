@@ -84,9 +84,6 @@ def scraper(url, resp):
                 else:
                     master_subdomain_dict[subdomain_tup] = 1
 
-            #print(url) # REMOVE AT THE END
-            if url == "https://www.ics.uci.edu" or url == "https://www.cs.uci.edu" or url == "https://www.informatics.uci.edu" or url == "https://www.stat.uci.edu":
-                print("***** WAS A  SEED URL ********")
      
             links = extract_next_links(url, resp)
             for link in links:

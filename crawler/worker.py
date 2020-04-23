@@ -3,8 +3,6 @@ from threading import Thread
 from utils.download import download
 from utils import get_logger
 import scraper
-#from scraper import scraper
-#from scraper import num_words_longest_page, longest_page
 import time
 
 
